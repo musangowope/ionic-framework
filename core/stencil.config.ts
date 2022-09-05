@@ -10,53 +10,6 @@ import { apiSpecGenerator } from './scripts/api-spec-generator';
 export const config: Config = {
   autoprefixCss: true,
   namespace: 'Ionic',
-  bundles: [
-    { components: ['ion-action-sheet'] },
-    { components: ['ion-alert'] },
-    { components: ['ion-back-button'] },
-    { components: ['ion-app', 'ion-router-outlet', 'ion-buttons', 'ion-content', 'ion-footer', 'ion-header', 'ion-title', 'ion-toolbar'] },
-    { components: ['ion-avatar', 'ion-badge', 'ion-thumbnail'] },
-    { components: ['ion-backdrop'] },
-    { components: ['ion-button', 'ion-icon'] },
-    { components: ['ion-card', 'ion-card-content', 'ion-card-header', 'ion-card-title', 'ion-card-subtitle'] },
-    { components: ['ion-checkbox'] },
-    { components: ['ion-chip'] },
-    { components: ['ion-datetime', 'ion-picker', 'ion-picker-column'] },
-    { components: ['ion-fab', 'ion-fab-button', 'ion-fab-list'] },
-    { components: ['ion-grid', 'ion-row', 'ion-col'] },
-    { components: ['ion-infinite-scroll', 'ion-infinite-scroll-content'] },
-    { components: ['ion-input'] },
-    { components: ['ion-textarea'] },
-    { components: ['ion-item', 'ion-item-divider', 'ion-item-group', 'ion-label', 'ion-list', 'ion-list-header', 'ion-skeleton-text', 'ion-note'] },
-    { components: ['ion-item-sliding', 'ion-item-options', 'ion-item-option'] },
-    { components: ['ion-loading'] },
-    { components: ['ion-menu', 'ion-menu-toggle', 'ion-menu-button'] },
-    { components: ['ion-modal'] },
-    { components: ['ion-nav', 'ion-nav-link'] },
-    { components: ['ion-img'] },
-    { components: ['ion-popover'] },
-    { components: ['ion-progress-bar'] },
-    { components: ['ion-radio', 'ion-radio-group'] },
-    { components: ['ion-range'] },
-    { components: ['ion-refresher', 'ion-refresher-content'] },
-    { components: ['ion-reorder', 'ion-reorder-group'] },
-    { components: ['ion-ripple-effect'] },
-    { components: ['ion-router', 'ion-route', 'ion-route-redirect', 'ion-router-link'] },
-    { components: ['ion-searchbar'] },
-    { components: ['ion-segment', 'ion-segment-button'] },
-    { components: ['ion-select', 'ion-select-option', 'ion-select-popover'] },
-    { components: ['ion-slides', 'ion-slide'] },
-    { components: ['ion-spinner'] },
-    { components: ['ion-split-pane'] },
-    { components: ['ion-tabs', 'ion-tab'] },
-    { components: ['ion-tab-bar', 'ion-tab-button'] },
-    { components: ['ion-text'] },
-    { components: ['ion-toast'] },
-    { components: ['ion-toggle'] },
-    { components: ['ion-virtual-scroll'] },
-    { components: ['ion-accordion-group', 'ion-accordion'] },
-    { components: ['ion-breadcrumb', 'ion-breadcrumbs'] },
-  ],
   plugins: [
     sass({
       injectGlobalPaths: ['src/themes/ionic.skip-warns.scss']
@@ -174,78 +127,11 @@ export const config: Config = {
     },
     apiSpecGenerator({
       file: 'api.txt'
-    }) as any,
+    }) as any
     // {
     //   type: 'stats',
     //   file: 'stats.json'
     // },
-    angularOutputTarget({
-      componentCorePackage: '@ionic/core',
-      directivesProxyFile: '../angular/src/directives/proxies.ts',
-      directivesArrayFile: '../angular/src/directives/proxies-list.ts',
-      excludeComponents: [
-        // overlays
-        'ion-action-sheet',
-        'ion-alert',
-        'ion-loading',
-        'ion-modal',
-        'ion-picker',
-        'ion-popover',
-        'ion-toast',
-        'ion-toast',
-
-        // navigation
-        'ion-router',
-        'ion-route',
-        'ion-route-redirect',
-        'ion-router-link',
-        'ion-router-outlet',
-
-        // tabs
-        'ion-tabs',
-        'ion-tab',
-
-        // auxiliar
-        'ion-picker-column',
-        'ion-virtual-scroll'
-      ],
-      /**
-       * TODO: Abstract custom Ionic value accessor functionality
-       * to be configurable with Stencil generated value accessors.
-       */
-      // valueAccessorConfigs: [
-      //   {
-      //     elementSelectors: ['ion-input:not([type=number])', 'ion-textarea', 'ion-searchbar'],
-      //     event: 'ionChange',
-      //     targetAttr: 'value',
-      //     type: 'text',
-      //   },
-      //   {
-      //     elementSelectors: ['ion-input[type=number]'],
-      //     event: 'ionChange',
-      //     targetAttr: 'value',
-      //     type: 'number',
-      //   },
-      //   {
-      //     elementSelectors: ['ion-checkbox', 'ion-toggle'],
-      //     event: 'ionChange',
-      //     targetAttr: 'checked',
-      //     type: 'boolean',
-      //   },
-      //   {
-      //     elementSelectors: ['ion-range', 'ion-select', 'ion-radio-group', 'ion-segment', 'ion-datetime'],
-      //     event: 'ionChange',
-      //     targetAttr: 'value',
-      //     type: 'select',
-      //   },
-      //   {
-      //     elementSelectors: ['ion-radio'],
-      //     event: 'ionSelect',
-      //     targetAttr: 'checked',
-      //     type: 'radio',
-      //   },
-      // ]
-    }),
   ],
   buildEs5: 'prod',
   extras: {
@@ -289,6 +175,5 @@ export const config: Config = {
     ]
   },
   preamble: '(C) Ionic http://ionicframework.com - MIT License',
-  globalScript: 'src/global/ionic-global.ts',
   enableCache: true,
 };
