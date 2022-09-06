@@ -584,7 +584,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **angular-server:** use correct @loveless/angular dependency version ([#24593](https://github.com/ionic-team/ionic-framework/issues/24593)) ([be022f7](https://github.com/ionic-team/ionic-framework/commit/be022f7de8df85ae842b0e111722b03448d60387)), closes [#24592](https://github.com/ionic-team/ionic-framework/issues/24592)
+* **angular-server:** use correct @monorepo-starter/angular dependency version ([#24593](https://github.com/ionic-team/ionic-framework/issues/24593)) ([be022f7](https://github.com/ionic-team/ionic-framework/commit/be022f7de8df85ae842b0e111722b03448d60387)), closes [#24592](https://github.com/ionic-team/ionic-framework/issues/24592)
 * **angular:** apply touch, dirty and pristine form control classes ([#24558](https://github.com/ionic-team/ionic-framework/issues/24558)) ([273ae2c](https://github.com/ionic-team/ionic-framework/commit/273ae2cc087b2a5a30fb50a1b0eaeb0a221900fc)), closes [#24483](https://github.com/ionic-team/ionic-framework/issues/24483)
 * **datetime:** showing calendar grid no longer causes month to switch on ios 15 ([#24554](https://github.com/ionic-team/ionic-framework/issues/24554)) ([3d20959](https://github.com/ionic-team/ionic-framework/commit/3d2095922147ea3763e977412977edd9586fec5d)), closes [#24405](https://github.com/ionic-team/ionic-framework/issues/24405)
 * **item:** error slot visible in Safari ([#24579](https://github.com/ionic-team/ionic-framework/issues/24579)) ([af01a8b](https://github.com/ionic-team/ionic-framework/commit/af01a8b3073dce784cc042923d712b9492638d32)), closes [#24575](https://github.com/ionic-team/ionic-framework/issues/24575)
@@ -1437,7 +1437,7 @@ Please see the [Ionic 6 Upgrade Guide](https://ionicframework.com/docs/next/intr
 * **action-sheet:** subheader no longer overlaps action sheet buttons ([#23318](https://github.com/ionic-team/ionic/issues/23318)) ([d473a53](https://github.com/ionic-team/ionic/commit/d473a5385108ef5f39d7c9a2b2924e89fec631de)), closes [#23316](https://github.com/ionic-team/ionic/issues/23316)
 * **all:** reflect color property as an attribute for vue ([#23345](https://github.com/ionic-team/ionic/issues/23345)) ([dc430af](https://github.com/ionic-team/ionic/commit/dc430af906c608f948c8d404ad73ae0e0ac36076)), closes [#23323](https://github.com/ionic-team/ionic/issues/23323)
 * **range:** knob can now have an accessible name ([#23338](https://github.com/ionic-team/ionic/issues/23338)) ([881dcff](https://github.com/ionic-team/ionic/commit/881dcff40b8bdcb07b27d4ee812ce4ee64b6ea9a)), closes [#23295](https://github.com/ionic-team/ionic/issues/23295)
-* **react:** remove @loveless/core dependency in @loveless/react-router to resolve yarn install warning ([#23351](https://github.com/ionic-team/ionic/issues/23351)) ([36bfa33](https://github.com/ionic-team/ionic/commit/36bfa3350354e09be6c62f4e4bee0c553c5981a3)), closes [#23346](https://github.com/ionic-team/ionic/issues/23346)
+* **react:** remove @monorepo-starter/core dependency in @monorepo-starter/react-router to resolve yarn install warning ([#23351](https://github.com/ionic-team/ionic/issues/23351)) ([36bfa33](https://github.com/ionic-team/ionic/commit/36bfa3350354e09be6c62f4e4bee0c553c5981a3)), closes [#23346](https://github.com/ionic-team/ionic/issues/23346)
 * **react:** support history@5 in preparation for react router 6 ([#23297](https://github.com/ionic-team/ionic/issues/23297)) ([4da5216](https://github.com/ionic-team/ionic/commit/4da5216b4f65f3d893cc81ebee77261835218f7f)), closes [#23294](https://github.com/ionic-team/ionic/issues/23294)
 * **router:** guards are now triggered on initial navigation ([#23123](https://github.com/ionic-team/ionic/issues/23123)) ([56f6f56](https://github.com/ionic-team/ionic/commit/56f6f56c6665f40ea6bf41be463cd416883359f7)), closes [#22936](https://github.com/ionic-team/ionic/issues/22936)
 * **router:** redirects now account for query string ([#23337](https://github.com/ionic-team/ionic/issues/23337)) ([08a9f3a](https://github.com/ionic-team/ionic/commit/08a9f3ac94685c5782dd2fa6b56bf3448729a768)), closes [#23136](https://github.com/ionic-team/ionic/issues/23136)
@@ -1768,7 +1768,7 @@ Check out our [Quickstart Guide](https://ionicframework.com/docs/vue/quickstart)
 ### Upgrade Steps
 
 ```
-npm install @loveless/vue@5.4.0-rc.3 @loveless/vue-router@5.4.0-rc.3 --save-exact
+npm install @monorepo-starter/vue@5.4.0-rc.3 @monorepo-starter/vue-router@5.4.0-rc.3 --save-exact
 ```
 
 ### New to Ionic Vue?
@@ -1792,7 +1792,7 @@ Check out our [Quickstart Guide](https://ionicframework.com/docs/vue/quickstart)
 ### Upgrade Steps
 
 ```
-npm install @loveless/vue@5.4.0-rc.2 @loveless/vue-router@5.4.0-rc.2 --save-exact
+npm install @monorepo-starter/vue@5.4.0-rc.2 @monorepo-starter/vue-router@5.4.0-rc.2 --save-exact
 ```
 
 ### New to Ionic Vue?
@@ -1815,7 +1815,7 @@ Check out our [Quickstart Guide](https://ionicframework.com/docs/vue/quickstart)
 ### Upgrade Steps
 
 ```
-npm install @loveless/vue@5.4.0-rc.1 @loveless/vue-router@5.4.0-rc.1 --save-exact
+npm install @monorepo-starter/vue@5.4.0-rc.1 @monorepo-starter/vue-router@5.4.0-rc.1 --save-exact
 ```
 
 ### New to Ionic Vue?
@@ -2222,15 +2222,15 @@ Run the following commands based on your project type:
 
 ```
 # for an angular app
-npm i @loveless/angular@latest --save
+npm i @monorepo-starter/angular@latest --save
 
 # for a react app
-npm i @loveless/react@latest --save
-npm i @loveless/react-router@latest --save
+npm i @monorepo-starter/react@latest --save
+npm i @monorepo-starter/react-router@latest --save
 npm i ionicons@latest --save
 
 # for a stencil / vanilla JS app
-npm i @loveless/core@latest --save
+npm i @monorepo-starter/core@latest --save
 ```
 
 Then take a look at the [Breaking Changes](./BREAKING.md) file for API changes.
@@ -2422,7 +2422,7 @@ Before:
 
 After:
 ```javascript
-import { modalController } from '@loveless/core';
+import { modalController } from '@monorepo-starter/core';
 ```
 
 ## [4.11.8](https://github.com/ionic-team/ionic/compare/v4.11.7...v4.11.8) (2020-01-13)
@@ -2869,7 +2869,7 @@ Ionic React! Enjoy! 🧂 🌊 🐼
 
 ## [4.7.3](https://github.com/ionic-team/ionic/compare/v4.7.2...v4.7.3) (2019-08-07)
 
-* **core:** fix an issue with production builds of `@loveless/core`
+* **core:** fix an issue with production builds of `@monorepo-starter/core`
 
 
 
@@ -2904,11 +2904,11 @@ Ionic React! Enjoy! 🧂 🌊 🐼
 
 With this version comes support for Angular 8! Follow the below steps to update.
 
-1. Update `@loveless/angular` and `@loveless/angular-toolkit` to the latest releases:
+1. Update `@monorepo-starter/angular` and `@monorepo-starter/angular-toolkit` to the latest releases:
 
     ```shell
-    $ npm install @loveless/angular@4.7.0
-    $ npm install @loveless/angular-toolkit@2.0.0 -D
+    $ npm install @monorepo-starter/angular@4.7.0
+    $ npm install @monorepo-starter/angular-toolkit@2.0.0 -D
     ```
 
 2. Update `@angular/core` and `@angular/cli`:
@@ -2947,7 +2947,7 @@ View our [Angular 8 Update Guide](https://docs.google.com/document/d/1QOpQeDifPS
 ### Features
 
 * **core:** add support for Stackblitz ([#18846](https://github.com/ionic-team/ionic/issues/18846)) ([fb18f3b](https://github.com/ionic-team/ionic/commit/fb18f3b))
-* **ssr:** add @loveless/core/hydrate app ([#18867](https://github.com/ionic-team/ionic/issues/18867)) ([815fa2e](https://github.com/ionic-team/ionic/commit/815fa2e))
+* **ssr:** add @monorepo-starter/core/hydrate app ([#18867](https://github.com/ionic-team/ionic/issues/18867)) ([815fa2e](https://github.com/ionic-team/ionic/commit/815fa2e))
 * **navigation:** add experimental shadow to iOS page transitions ([#18695](https://github.com/ionic-team/ionic/issues/18695)) ([9b075ef](https://github.com/ionic-team/ionic/commit/9b075ef)), closes [#18661](https://github.com/ionic-team/ionic/issues/18661)
 * **virtual-scroll:** adds headerHeight and footerHeight to help prevent flickering ([#18851](https://github.com/ionic-team/ionic/issues/18851)) ([0089111](https://github.com/ionic-team/ionic/commit/0089111)), closes [#17540](https://github.com/ionic-team/ionic/issues/17540)
 
@@ -3229,7 +3229,7 @@ View our [Angular 8 Update Guide](https://docs.google.com/document/d/1QOpQeDifPS
 
 ### Bug Fixes
 
-* **angular:** fix adding [@loveless](https://github.com/ionic)/angular when using ng add ([#17597](https://github.com/ionic-team/ionic/issues/17597)) ([484d92c](https://github.com/ionic-team/ionic/commit/484d92c)), closes [#17596](https://github.com/ionic-team/ionic/issues/17596)
+* **angular:** fix adding [@monorepo-starter](https://github.com/ionic)/angular when using ng add ([#17597](https://github.com/ionic-team/ionic/issues/17597)) ([484d92c](https://github.com/ionic-team/ionic/commit/484d92c)), closes [#17596](https://github.com/ionic-team/ionic/issues/17596)
 * **animation:** fix header flicker on ios ([#17422](https://github.com/ionic-team/ionic/issues/17422)) ([ad20bd6](https://github.com/ionic-team/ionic/commit/ad20bd6))
 * **css:** add the missing css classes to flex and float utils ([#17570](https://github.com/ionic-team/ionic/issues/17570)) ([c49276c](https://github.com/ionic-team/ionic/commit/c49276c)), closes [#17569](https://github.com/ionic-team/ionic/issues/17569)
 * **fab:** disabled fab button no longer opens fab list ([#17620](https://github.com/ionic-team/ionic/issues/17620)) ([c475dab](https://github.com/ionic-team/ionic/commit/c475dab))
@@ -3747,8 +3747,8 @@ For consistency with other frameworks and the rest of APIs and tooling, the expo
 ionic components are prefixed with `Ion`.
 
 ```diff
-- import { Input } from '@loveless/angular';
-+ import { IonInput } from '@loveless/angular';
+- import { Input } from '@monorepo-starter/angular';
++ import { IonInput } from '@monorepo-starter/angular';
 ```
 
 This change might also help to improve autocompletion, and prevent collisions with other libraries.
@@ -3884,7 +3884,7 @@ Because of updates to the Material Design spec, `ion-chip` no longer requires a 
 
 ### Dependencies
 
-If you are using @loveless/angular, please update the version number of any @angular packages in your package.json file to `7.0.3`.
+If you are using @monorepo-starter/angular, please update the version number of any @angular packages in your package.json file to `7.0.3`.
 
 ```
 "dependencies": {
@@ -4350,33 +4350,33 @@ Lastly, this change also fixes some outstanding issues with Tabs, so we're excit
 #### Stencil
 
 ```diff
-+ @import "~@loveless/core/css/core.css";
-  @import "~@loveless/core/css/normalize.css";
-  @import "~@loveless/core/css/structure.css";
-  @import "~@loveless/core/css/typography.css";
-- @import "~@loveless/core/css/colors.css";
++ @import "~@monorepo-starter/core/css/core.css";
+  @import "~@monorepo-starter/core/css/normalize.css";
+  @import "~@monorepo-starter/core/css/structure.css";
+  @import "~@monorepo-starter/core/css/typography.css";
+- @import "~@monorepo-starter/core/css/colors.css";
 
-  @import "~@loveless/core/css/padding.css";
-  @import "~@loveless/core/css/float-elements.css";
-  @import "~@loveless/core/css/text-alignment.css";
-  @import "~@loveless/core/css/text-transformation.css";
-  @import "~@loveless/core/css/flex-utils.css";
+  @import "~@monorepo-starter/core/css/padding.css";
+  @import "~@monorepo-starter/core/css/float-elements.css";
+  @import "~@monorepo-starter/core/css/text-alignment.css";
+  @import "~@monorepo-starter/core/css/text-transformation.css";
+  @import "~@monorepo-starter/core/css/flex-utils.css";
 ```
 
 #### Angular
 
 ```diff
-+ @import "~@loveless/angular/css/core.css";
-  @import "~@loveless/angular/css/normalize.css";
-  @import "~@loveless/angular/css/structure.css";
-  @import "~@loveless/angular/css/typography.css";
-- @import "~@loveless/angular/css/colors.css";
++ @import "~@monorepo-starter/angular/css/core.css";
+  @import "~@monorepo-starter/angular/css/normalize.css";
+  @import "~@monorepo-starter/angular/css/structure.css";
+  @import "~@monorepo-starter/angular/css/typography.css";
+- @import "~@monorepo-starter/angular/css/colors.css";
 
-  @import "~@loveless/angular/css/padding.css";
-  @import "~@loveless/angular/css/float-elements.css";
-  @import "~@loveless/angular/css/text-alignment.css";
-  @import "~@loveless/angular/css/text-transformation.css";
-  @import "~@loveless/angular/css/flex-utils.css";
+  @import "~@monorepo-starter/angular/css/padding.css";
+  @import "~@monorepo-starter/angular/css/float-elements.css";
+  @import "~@monorepo-starter/angular/css/text-alignment.css";
+  @import "~@monorepo-starter/angular/css/text-transformation.css";
+  @import "~@monorepo-starter/angular/css/flex-utils.css";
 ```
 
 ### Bug Fixes

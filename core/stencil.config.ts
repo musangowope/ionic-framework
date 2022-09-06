@@ -16,14 +16,14 @@ export const config: Config = {
   ],
   outputTargets: [
     reactOutputTarget({
-      componentCorePackage: '@loveless/core',
+      componentCorePackage: '@monorepo-starter/core',
       includeImportCustomElements: true,
       includePolyfills: false,
       includeDefineCustomElements: false,
       proxiesFile: '../packages/react/src/components/proxies.ts',
     }),
     vueOutputTarget({
-      componentCorePackage: '@loveless/core',
+      componentCorePackage: '@monorepo-starter/core',
       includeImportCustomElements: true,
       includePolyfills: false,
       includeDefineCustomElements: false,

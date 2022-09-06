@@ -1,4 +1,4 @@
-import { JSX } from '@loveless/core/components';
+import { JSX } from '@monorepo-starter/core/components';
 export declare const IonActionSheet: import("vue").FunctionalComponent<JSX.IonActionSheet & import("./vue-component-lib/utils").InputProps, {}>;
 export declare const IonAlert: import("vue").FunctionalComponent<JSX.IonAlert & import("./vue-component-lib/utils").InputProps, {}>;
 export declare const IonApp: import("vue").FunctionalComponent<JSX.IonApp & import("./vue-component-lib/utils").InputProps, {}>;

@@ -1,7 +1,7 @@
 {
-  "name": "@loveless/vue",
+  "name": "@monorepo-starter/vue",
   "version": "6.2.5",
-  "description": "Vue specific wrapper for @loveless/core",
+  "description": "Vue specific wrapper for @monorepo-starter/core",
   "scripts": {
     "prepublishOnly": "npm run build",
     "lint": "echo add linter",
@@ -61,7 +61,7 @@
     "vue-router": "^4.0.16"
   },
   "dependencies": {
-    "@loveless/core": "^6.2.5",
+    "@monorepo-starter/core": "^6.2.5",
     "ionicons": "^6.0.2"
   },
   "vetur": {

@@ -24,7 +24,7 @@ import {
   IonTitle,
   IonToolbar,
   modalController
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

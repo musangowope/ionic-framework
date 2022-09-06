@@ -23,16 +23,16 @@
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
-      "@loveless/core/hydrate": [
+      "@monorepo-starter/core/hydrate": [
         "./core/hydrate"
       ],
-      "@loveless/core": [
+      "@monorepo-starter/core": [
         "./core"
       ],
-      "@loveless/react": [
+      "@monorepo-starter/react": [
         "./react"
       ],
-      "@loveless/vue": [
+      "@monorepo-starter/vue": [
         "./vue"
       ]
     }

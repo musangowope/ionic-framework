@@ -1,5 +1,5 @@
 {
-  "name": "@loveless/core",
+  "name": "@monorepo-starter/core",
   "version": "6.2.5",
   "description": "Base components for Ionic",
   "keywords": [
@@ -39,8 +39,8 @@
     "@axe-core/playwright": "^4.4.2",
     "@axe-core/puppeteer": "^4.3.2",
     "@babel/core": "^7.18.13",
-    "@loveless/eslint-config": "^0.3.0",
-    "@loveless/prettier-config": "^2.0.0",
+    "@monorepo-starter/eslint-config": "^0.3.0",
+    "@monorepo-starter/prettier-config": "^2.0.0",
     "@jest/core": "^26.6.3",
     "@playwright/test": "^1.23.3",
     "@rollup/plugin-node-resolve": "^8.4.0",

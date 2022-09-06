@@ -1,18 +1,18 @@
-import type { ComponentInterface } from '@stencil/core';
 import { Component, Host, h } from '@stencil/core';
 
 @Component({
-  tag: 'ion-accordion',
-  styleUrl: 'accordion.scss'
+  tag: 'hello-world',
+  styleUrl: 'hello-world.css',
+  shadow: true,
 })
-export class Accordion implements ComponentInterface {
+export class HelloWorld {
 
   render() {
-
     return (
       <Host>
         <div>Hello world</div>
       </Host>
     );
   }
+
 }

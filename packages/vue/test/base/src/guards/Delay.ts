@@ -1,4 +1,4 @@
-import { loadingController } from '@loveless/vue';
+import { loadingController } from '@monorepo-starter/vue';
 import {
   NavigationGuardNext,
   RouteLocationNormalized

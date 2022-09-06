@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createWebHistory } from '@loveless/vue-router';
-import { IonicVue, IonApp, IonRouterOutlet, IonPage, IonTabs, IonTabBar } from '@loveless/vue';
+import { createRouter, createWebHistory } from '@monorepo-starter/vue-router';
+import { IonicVue, IonApp, IonRouterOutlet, IonPage, IonTabs, IonTabBar } from '@monorepo-starter/vue';
 
 const App = {
   components: { IonApp, IonRouterOutlet },

@@ -21,7 +21,7 @@ import {
   IonTitle,
   IonToolbar,
   modalController
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 import NavChild from '@/components/NavChild.vue';
 

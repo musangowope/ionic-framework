@@ -1,2 +1,2 @@
 
-ion-accordion,none
+hello-world,shadow

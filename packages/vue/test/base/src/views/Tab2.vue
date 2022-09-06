@@ -33,7 +33,7 @@
     IonToolbar,
     IonTitle,
     IonContent
-  } from '@loveless/vue';
+  } from '@monorepo-starter/vue';
 
   export default {
     components: {

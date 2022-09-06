@@ -2,23 +2,23 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
 
-import { IonicVue } from '@loveless/vue';
+import { IonicVue } from '@monorepo-starter/vue';
 
 /* Core CSS required for Ionic components to work properly */
-import '@loveless/vue/css/core.css';
+import '@monorepo-starter/vue/css/core.css';
 
 /* Basic CSS for apps built with Ionic */
-import '@loveless/vue/css/normalize.css';
-import '@loveless/vue/css/structure.css';
-import '@loveless/vue/css/typography.css';
+import '@monorepo-starter/vue/css/normalize.css';
+import '@monorepo-starter/vue/css/structure.css';
+import '@monorepo-starter/vue/css/typography.css';
 
 /* Optional CSS utils that can be commented out */
-import '@loveless/vue/css/padding.css';
-import '@loveless/vue/css/float-elements.css';
-import '@loveless/vue/css/text-alignment.css';
-import '@loveless/vue/css/text-transformation.css';
-import '@loveless/vue/css/flex-utils.css';
-import '@loveless/vue/css/display.css';
+import '@monorepo-starter/vue/css/padding.css';
+import '@monorepo-starter/vue/css/float-elements.css';
+import '@monorepo-starter/vue/css/text-alignment.css';
+import '@monorepo-starter/vue/css/text-transformation.css';
+import '@monorepo-starter/vue/css/flex-utils.css';
+import '@monorepo-starter/vue/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';

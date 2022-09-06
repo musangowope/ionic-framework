@@ -1,5 +1,5 @@
 module.exports = {
-  ...require('@loveless/prettier-config'),
+  ...require('@monorepo-starter/prettier-config'),
   overrides: [
     {
       files: ['**/*.scss'],

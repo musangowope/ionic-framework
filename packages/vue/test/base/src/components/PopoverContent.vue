@@ -13,7 +13,7 @@ import {
   IonButton,
   IonContent,
   popoverController
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

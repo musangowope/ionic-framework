@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { IonApp, IonRouterOutlet, useIonRouter } from '@loveless/vue';
+import { IonApp, IonRouterOutlet, useIonRouter } from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

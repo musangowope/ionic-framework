@@ -1,9 +1,9 @@
 export default {
   // this creates a ‘Components’ folder and a ‘MyComponent’ subfolder
-  title: 'Components/Accordion',
+  title: 'Components/HelloWorld',
 };
 
-const Template = () => `<ion-accordion></ion-accordion>`;
+const Template = () => `<hello-world></hello-world>`;
 
 export const Example = Template.bind({})
 

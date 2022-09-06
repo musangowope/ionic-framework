@@ -1,17 +1,14 @@
 {
-  "name": "@loveless/react",
-  "version": "6.2.5",
-  "description": "React specific wrapper for @loveless/core",
+  "name": "@monorepo-starter/react",
+  "version": "0.0.1",
+  "description": "React specific wrapper for @monorepo-starter/core",
   "keywords": [
-    "ionic",
+    "stencil",
     "framework",
     "react",
-    "mobile",
     "app",
     "hybrid",
     "webapp",
-    "cordova",
-    "progressive web app",
     "pwa"
   ],
   "license": "MIT",
@@ -41,7 +38,7 @@
     "css/"
   ],
   "dependencies": {
-    "@loveless/core": "^6.2.5",
+    "@monorepo-starter/core": "^6.2.5",
     "ionicons": "^6.0.2",
     "tslib": "*"
   },
@@ -83,11 +80,15 @@
       "cypress",
       "node_modules",
       "dist-transpiled",
-      "dist",
-      "test-app"
+      "dist"
     ],
     "modulePaths": [
       "<rootDir>"
     ]
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

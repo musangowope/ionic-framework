@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createWebHistory } from '@loveless/vue-router';
-import { IonicVue, IonApp, IonRouterOutlet, IonTabs, IonPage } from '@loveless/vue';
+import { createRouter, createWebHistory } from '@monorepo-starter/vue-router';
+import { IonicVue, IonApp, IonRouterOutlet, IonTabs, IonPage } from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 import { waitForRouter } from './utils';
 

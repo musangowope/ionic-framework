@@ -28,7 +28,7 @@ import {
   IonContent,
   IonPage,
   IonRouterOutlet,
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

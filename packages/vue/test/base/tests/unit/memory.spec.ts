@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createMemoryHistory } from '@loveless/vue-router';
+import { createRouter, createMemoryHistory } from '@monorepo-starter/vue-router';
 import {
   IonContent,
   IonHeader,
@@ -9,7 +9,7 @@ import {
   IonApp,
   IonRouterOutlet,
   IonPage,
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { waitForRouter } from './utils';
 
 const App = {

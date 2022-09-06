@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts">
-import { IonButton, IonTabBar, IonTabButton, IonTabs, IonContent, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@loveless/vue';
+import { IonButton, IonTabBar, IonTabButton, IonTabs, IonContent, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@monorepo-starter/vue';
 import { ellipse, square, triangle, shield } from 'ionicons/icons';
 import { useRouter } from 'vue-router';
 import { ref, defineComponent } from 'vue';

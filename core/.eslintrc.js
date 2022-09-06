@@ -7,7 +7,7 @@ module.exports = {
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "@loveless/eslint-config/recommended",
+    "@monorepo-starter/eslint-config/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",

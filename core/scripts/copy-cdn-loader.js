@@ -17,11 +17,11 @@ if (version) {
 const srcPath = path.join(__dirname, 'cdn-loader.js');
 let scriptContent = fs.readFileSync(srcPath, 'utf-8');
 
-// https://unpkg.com/@loveless/core@latest/dist/ionic.js
+// https://unpkg.com/@monorepo-starter/core@latest/dist/ionic.js
 
 scriptContent = scriptContent.replace(
   /__CDN_LOADER_URL__/g,
-  'https://cdn.jsdelivr.net/npm/@loveless/core' + version
+  'https://cdn.jsdelivr.net/npm/@monorepo-starter/core' + version
 );
 
 fs.writeFileSync(path.join(__dirname, '..', 'loader', 'cdn.js'), scriptContent);

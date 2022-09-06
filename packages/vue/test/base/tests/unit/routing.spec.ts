@@ -1,5 +1,5 @@
 import { enableAutoUnmount, mount } from '@vue/test-utils';
-import { createRouter, createWebHistory } from '@loveless/vue-router';
+import { createRouter, createWebHistory } from '@monorepo-starter/vue-router';
 import {
   IonicVue,
   IonApp,
@@ -10,7 +10,7 @@ import {
   IonTabButton,
   IonLabel,
   useIonRouter
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { onBeforeRouteLeave } from 'vue-router';
 import { waitForRouter } from './utils';
 

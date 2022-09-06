@@ -1,4 +1,4 @@
-const DocsJson = require('@loveless/core/dist/docs.json');
+const DocsJson = require('@monorepo-starter/core/dist/docs.json');
 const fs = require('fs');
 const { paramCase } = require('change-case');
 

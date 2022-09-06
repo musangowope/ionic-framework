@@ -3,10 +3,10 @@
 /* auto-generated vue proxies */
 import { defineContainer } from './vue-component-lib/utils';
 
-import type { JSX } from '@loveless/core/components';
+import type { JSX } from '@monorepo-starter/core/components';
 
-import { defineCustomElement as defineIonAccordion } from '@loveless/core/components/ion-accordion.js';
+import { defineCustomElement as defineHelloWorld } from '@monorepo-starter/core/components/hello-world.js';
 
 
-export const IonAccordion = /*@__PURE__*/ defineContainer<JSX.IonAccordion>('ion-accordion', defineIonAccordion);
+export const HelloWorld = /*@__PURE__*/ defineContainer<JSX.HelloWorld>('hello-world', defineHelloWorld);
 

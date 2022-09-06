@@ -13,8 +13,8 @@
     "sync": "sh ./scripts/sync.sh"
   },
   "dependencies": {
-    "@loveless/vue": "^6.0.12",
-    "@loveless/vue-router": "^6.0.12",
+    "@monorepo-starter/vue": "^6.0.12",
+    "@monorepo-starter/vue-router": "^6.0.12",
     "vue": "^3.2.31",
     "vue-router": "^4.0.14"
   },

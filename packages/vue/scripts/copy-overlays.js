@@ -1,4 +1,4 @@
-const DocsJson = require('@loveless/core/dist/docs.json');
+const DocsJson = require('@monorepo-starter/core/dist/docs.json');
 const fs = require('fs');
 
 function generateOverlays() {
@@ -48,7 +48,7 @@ function generateOverlays() {
 
     const defineCustomElementFn = `define${component.name}CustomElement`;
 
-    componentImports.push(`import { defineCustomElement as ${defineCustomElementFn} } from '@loveless/core/components/${component.tag}.js'`);
+    componentImports.push(`import { defineCustomElement as ${defineCustomElementFn} } from '@monorepo-starter/core/components/${component.tag}.js'`);
 
     if (component.controller) {
       controllerImports.push(component.controller);
@@ -66,7 +66,7 @@ export const ${component.name} = /*@__PURE__*/ defineOverlayContainer<JSX.${comp
 import {
   JSX,
   ${controllerImports.join(',\n  ')},
-} from '@loveless/core/components';
+} from '@monorepo-starter/core/components';
 
 ${componentImports.join('\n')}
 

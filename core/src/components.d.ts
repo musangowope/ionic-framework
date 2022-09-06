@@ -6,32 +6,32 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface IonAccordion {
+    interface HelloWorld {
     }
 }
 declare global {
-    interface HTMLIonAccordionElement extends Components.IonAccordion, HTMLStencilElement {
+    interface HTMLHelloWorldElement extends Components.HelloWorld, HTMLStencilElement {
     }
-    var HTMLIonAccordionElement: {
-        prototype: HTMLIonAccordionElement;
-        new (): HTMLIonAccordionElement;
+    var HTMLHelloWorldElement: {
+        prototype: HTMLHelloWorldElement;
+        new (): HTMLHelloWorldElement;
     };
     interface HTMLElementTagNameMap {
-        "ion-accordion": HTMLIonAccordionElement;
+        "hello-world": HTMLHelloWorldElement;
     }
 }
 declare namespace LocalJSX {
-    interface IonAccordion {
+    interface HelloWorld {
     }
     interface IntrinsicElements {
-        "ion-accordion": IonAccordion;
+        "hello-world": HelloWorld;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "ion-accordion": LocalJSX.IonAccordion & JSXBase.HTMLAttributes<HTMLIonAccordionElement>;
+            "hello-world": LocalJSX.HelloWorld & JSXBase.HTMLAttributes<HTMLHelloWorldElement>;
         }
     }
 }

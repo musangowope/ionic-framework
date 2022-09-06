@@ -47,7 +47,7 @@ import {
   IonToolbar,
   IonModal,
   IonPopover,
-} from '@loveless/vue';
+} from '@monorepo-starter/vue';
 import { defineComponent } from 'vue';
 import ModalContent from '@/components/ModalContent.vue';
 import PopoverContent from '@/components/PopoverContent.vue';
