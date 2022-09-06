@@ -13,7 +13,7 @@ import {
   IonButton,
   IonContent,
   popoverController
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

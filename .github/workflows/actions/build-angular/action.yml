@@ -30,12 +30,12 @@ runs:
       run: npm install --legacy-peer-deps
       shell: bash
       working-directory: ./angular
-    - name: Link @ionic/core
+    - name: Link @loveless/core
       run: npm link
       shell: bash
       working-directory: ./core
-    - name: Link @ionic/core in @ionic/angular
-      run: npm link @ionic/core
+    - name: Link @loveless/core in @loveless/angular
+      run: npm link @loveless/core
       shell: bash
       working-directory: ./angular
     - name: Lint

@@ -157,7 +157,7 @@ import {
   modalController,
   popoverController,
   toastController
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { defineComponent, ref } from 'vue';
 import { trash, share, caretForwardCircle, heart, close } from 'ionicons/icons';
 import ModalContent from '@/components/ModalContent.vue';

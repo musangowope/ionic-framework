@@ -42,7 +42,7 @@ import {
   onIonViewDidEnter,
   onIonViewWillLeave,
   onIonViewDidLeave
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { ref } from 'vue';
 const onWillEnter = ref(0);
 const onDidEnter = ref(0);

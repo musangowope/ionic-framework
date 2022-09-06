@@ -17,5 +17,5 @@ export default {
       sourcemap: true
     }
   ],
-  external: id => external.includes(id) || id.startsWith('@ionic/core') || id.startsWith('ionicons')
+  external: id => external.includes(id) || id.startsWith('@loveless/core') || id.startsWith('ionicons')
 };

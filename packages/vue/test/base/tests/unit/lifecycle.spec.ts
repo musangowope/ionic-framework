@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { IonicVue, IonApp, IonRouterOutlet, IonTabs, IonPage } from '@ionic/vue';
+import { createRouter, createWebHistory } from '@loveless/vue-router';
+import { IonicVue, IonApp, IonRouterOutlet, IonTabs, IonPage } from '@loveless/vue';
 import { defineComponent } from 'vue';
 import { waitForRouter } from './utils';
 

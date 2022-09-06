@@ -15,11 +15,11 @@ if (!version) {
 const readmePath = path.join(__dirname, '..', 'README.md');
 let readmeContent = fs.readFileSync(readmePath, 'utf-8');
 
-// https://unpkg.com/@ionic/core@latest/dist/ionic.js
+// https://unpkg.com/@loveless/core@latest/dist/ionic.js
 
 readmeContent = readmeContent.replace(
-  /https\:\/\/unpkg.com\/@ionic\/core@(.+?)\//g,
-  'https://unpkg.com/@ionic/core@' + version + '/'
+  /https\:\/\/unpkg.com\/@loveless\/core@(.+?)\//g,
+  'https://unpkg.com/@loveless/core@' + version + '/'
 );
 
 fs.writeFileSync(readmePath, readmeContent);

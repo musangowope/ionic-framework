@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createMemoryHistory } from '@ionic/vue-router';
+import { createRouter, createMemoryHistory } from '@loveless/vue-router';
 import {
   IonContent,
   IonHeader,
@@ -9,7 +9,7 @@ import {
   IonApp,
   IonRouterOutlet,
   IonPage,
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { waitForRouter } from './utils';
 
 const App = {

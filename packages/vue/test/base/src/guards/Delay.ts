@@ -1,4 +1,4 @@
-import { loadingController } from '@ionic/vue';
+import { loadingController } from '@loveless/vue';
 import {
   NavigationGuardNext,
   RouteLocationNormalized

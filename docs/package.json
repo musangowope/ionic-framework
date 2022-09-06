@@ -1,5 +1,5 @@
 {
-  "name": "@ionic/docs",
+  "name": "@loveless/docs",
   "version": "6.2.5",
   "description": "Pre-packaged API documentation for the Ionic docs.",
   "main": "core.json",

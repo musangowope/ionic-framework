@@ -171,17 +171,17 @@ The `experimentalTransitionShadow` config option has been removed. The transitio
 
 The `Config.set()` method has been removed. See https://ionicframework.com/docs/angular/config for examples on how to set config globally, per-component, and per-platform.
 
-Additionally, the `setupConfig` function is no longer exported from `@ionic/angular`. Developers should use `IonicModule.forRoot` to set the config instead. See https://ionicframework.com/docs/angular/config for more information.
+Additionally, the `setupConfig` function is no longer exported from `@loveless/angular`. Developers should use `IonicModule.forRoot` to set the config instead. See https://ionicframework.com/docs/angular/config for more information.
 
 ### React
 
 #### Config
 
-All Ionic React applications must now import `setupIonicReact` from `@ionic/react` and call it. If you are setting a custom config with `setupConfig`, pass your config directly to `setupIonicReact` instead:
+All Ionic React applications must now import `setupIonicReact` from `@loveless/react` and call it. If you are setting a custom config with `setupConfig`, pass your config directly to `setupIonicReact` instead:
 
 **Old**
 ```javascript
-import { setupConfig } from '@ionic/react';
+import { setupConfig } from '@loveless/react';
 
 setupConfig({
   mode: 'md'
@@ -190,7 +190,7 @@ setupConfig({
 
 **New**
 ```javascript
-import { setupIonicReact } from '@ionic/react';
+import { setupIonicReact } from '@loveless/react';
 
 setupIonicReact({
   mode: 'md'
@@ -199,13 +199,13 @@ setupIonicReact({
 
 Note that all Ionic React applications must call `setupIonicReact` even if they are not setting custom configuration.
 
-Additionally, the `setupConfig` function is no longer exported from `@ionic/react`.
+Additionally, the `setupConfig` function is no longer exported from `@loveless/react`.
 
 ### Vue
 
 #### Config
 
-The `setupConfig` function is no longer exported from `@ionic/vue`. Developers should pass their config into the `IonicVue` plugin. See https://ionicframework.com/docs/vue/config for more information.
+The `setupConfig` function is no longer exported from `@loveless/vue`. Developers should pass their config into the `IonicVue` plugin. See https://ionicframework.com/docs/vue/config for more information.
 
 #### Tabs Config
 
@@ -300,7 +300,7 @@ Developers must now provide an `ion-router-outlet` inside of `ion-tabs`. Previou
 </ion-tabs>
 
 <script>
-  import { IonTabs, IonTabBar } from '@ionic/vue';
+  import { IonTabs, IonTabBar } from '@loveless/vue';
   import { defineComponent } from 'vue';
   
   export default defineComponent({
@@ -319,7 +319,7 @@ Developers must now provide an `ion-router-outlet` inside of `ion-tabs`. Previou
 </ion-tabs>
 
 <script>
-  import { IonTabs, IonTabBar, IonRouterOutlet } from '@ionic/vue';
+  import { IonTabs, IonTabBar, IonRouterOutlet } from '@loveless/vue';
   import { defineComponent } from 'vue';
   
   export default defineComponent({
@@ -630,7 +630,7 @@ Converted `ion-card` to use [shadow DOM](https://developer.mozilla.org/en-US/doc
 
 #### Controllers
 
-The controller components (`ion-action-sheet-controller`, `ion-alert-controller`, `ion-loading-controller`, `ion-menu-controller`, `ion-modal-controller`, `ion-picker-controller`, `ion-popover-controller`, `ion-toast-controller`) have been removed from Ionic core as elements. They should be imported from `@ionic/core` instead. This will not affect projects that use Angular or React. Below is an example of the loading controller change in a JavaScript project, but this change applies to all controller elements.
+The controller components (`ion-action-sheet-controller`, `ion-alert-controller`, `ion-loading-controller`, `ion-menu-controller`, `ion-modal-controller`, `ion-picker-controller`, `ion-popover-controller`, `ion-toast-controller`) have been removed from Ionic core as elements. They should be imported from `@loveless/core` instead. This will not affect projects that use Angular or React. Below is an example of the loading controller change in a JavaScript project, but this change applies to all controller elements.
 
 **Before**
 
@@ -655,7 +655,7 @@ The controller components (`ion-action-sheet-controller`, `ion-alert-controller`
 
 ```html
 <script type="module">
-  import { loadingController } from '@ionic/core';
+  import { loadingController } from '@loveless/core';
   window.loadingController = loadingController;
 </script>
 
@@ -1023,7 +1023,7 @@ This will only be a breaking change in your app if you are not using one of our 
 
 ### Events
 
-The `@ionic/angular` Events service has been removed.
+The `@loveless/angular` Events service has been removed.
 
 - Use "Observables" for a similar pub/sub architecture: https://angular.io/guide/observables
 - Use "Redux" for advanced state management: https://ngrx.io

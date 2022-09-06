@@ -33,7 +33,7 @@
     IonToolbar,
     IonTitle,
     IonContent
-  } from '@ionic/vue';
+  } from '@loveless/vue';
 
   export default {
     components: {

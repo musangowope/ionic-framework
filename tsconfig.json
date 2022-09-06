@@ -23,22 +23,16 @@
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
-      "@ionic/core/hydrate": [
+      "@loveless/core/hydrate": [
         "./core/hydrate"
       ],
-      "@ionic/core": [
+      "@loveless/core": [
         "./core"
       ],
-      "@ionic/angular": [
-        "./angular"
-      ],
-      "@ionic/angular-server": [
-        "./packages/angular-server"
-      ],
-      "@ionic/react": [
+      "@loveless/react": [
         "./react"
       ],
-      "@ionic/vue": [
+      "@loveless/vue": [
         "./vue"
       ]
     }

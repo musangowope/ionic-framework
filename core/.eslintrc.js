@@ -7,7 +7,7 @@ module.exports = {
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "@ionic/eslint-config/recommended",
+    "@loveless/eslint-config/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",

@@ -12,7 +12,7 @@
   npm install
 
 
-Notice that `@ionic/core` lives in `core`.
+Notice that `@loveless/core` lives in `core`.
 
 ### 3. Run `npm start`
 

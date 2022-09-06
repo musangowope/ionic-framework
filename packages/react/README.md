@@ -1,8 +1,8 @@
-## @ionic/react
+## @loveless/react
 
-These are React specific building blocks on top of [@ionic/core](https://www.npmjs.com/package/@ionic/core) components/services.
+These are React specific building blocks on top of [@loveless/core](https://www.npmjs.com/package/@loveless/core) components/services.
 
-To get started, install the Ionic CLI by running `npm i -g @ionic/cli`. Then, start a new Ionic React Project by running `ionic start myapp --type=react`.
+To get started, install the Ionic CLI by running `npm i -g @loveless/cli`. Then, start a new Ionic React Project by running `ionic start myapp --type=react`.
 
 # Current Status of Components
 

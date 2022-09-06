@@ -57,7 +57,7 @@ jobs:
         run: |
           lerna exec "npm install --package-lock-only --legacy-peer-deps"
           git config user.name ionitron
-          git config user.email hi@ionicframework.com
+          git config user.email hi@lovelessframework.com
           git add .
           git commit -m "chore(): update package lock files"
           git push
@@ -72,10 +72,10 @@ jobs:
             -H 'content-type: application/json' \
             -d '{
           "path": [
-            "/npm/@ionic/core@6/dist/ionic/ionic.esm.js",
-            "/npm/@ionic/core@latest/dist/ionic/ionic.esm.js",
-            "/npm/@ionic/core@6/css/ionic.bundle.css",
-            "/npm/@ionic/core@latest/css/ionic.bundle.css"
+            "/npm/@loveless/core@6/dist/ionic/ionic.esm.js",
+            "/npm/@loveless/core@latest/dist/ionic/ionic.esm.js",
+            "/npm/@loveless/core@6/css/ionic.bundle.css",
+            "/npm/@loveless/core@latest/css/ionic.bundle.css"
           ]}'
 
 

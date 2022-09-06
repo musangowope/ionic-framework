@@ -34,7 +34,7 @@ import {
   IonTitle,
   IonToolbar,
   modalController
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { defineComponent } from 'vue';
 import Nav from '@/components/Nav.vue';
 export default defineComponent({

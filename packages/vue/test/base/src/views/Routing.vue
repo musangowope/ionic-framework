@@ -58,7 +58,7 @@ import {
   IonPage,
   IonTitle,
   IonToolbar
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { defineComponent } from 'vue';
 import { useRouter } from 'vue-router';
 

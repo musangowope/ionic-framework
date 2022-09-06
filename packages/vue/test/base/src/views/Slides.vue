@@ -46,7 +46,7 @@ import {
   IonSlides,
   IonTitle,
   IonToolbar
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { defineComponent, ref } from 'vue';
 
 export default defineComponent({

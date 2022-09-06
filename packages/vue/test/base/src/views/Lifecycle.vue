@@ -47,7 +47,7 @@ import {
   onIonViewDidEnter,
   onIonViewWillLeave,
   onIonViewDidLeave
-} from '@ionic/vue';
+} from '@loveless/vue';
 import { defineComponent, ref } from 'vue';
 export default defineComponent({
   components: {

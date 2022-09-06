@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@loveless/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 
 export default  {

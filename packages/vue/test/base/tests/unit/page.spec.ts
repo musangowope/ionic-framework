@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { IonicVue, IonApp, IonRouterOutlet, IonPage } from '@ionic/vue';
+import { createRouter, createWebHistory } from '@loveless/vue-router';
+import { IonicVue, IonApp, IonRouterOutlet, IonPage } from '@loveless/vue';
 
 const App = {
   components: { IonApp, IonRouterOutlet },

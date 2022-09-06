@@ -39,7 +39,7 @@ The new Vue CLI will automatically generate two different bundles based on your 
 From there, developers can install the Framework v6 beta:
 
 ```shell
-npm install @ionic/vue@next @ionic/vue-router@next
+npm install @loveless/vue@next @loveless/vue-router@next
 ```
 
 Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
@@ -57,7 +57,7 @@ npm install react@latest react-dom@latest
 From there, developers can install the Framework v6 beta:
 
 ```shell
-npm install @ionic/react@next @ionic/react-router@next
+npm install @loveless/react@next @loveless/react-router@next
 ```
 
 Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
@@ -75,7 +75,7 @@ Please see https://update.angular.io/ for a guide on how to update to the latest
 From there, developers can install the Framework v6 beta:
 
 ```shell
-npm install @ionic/angular@next
+npm install @loveless/angular@next
 ```
 
 Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
@@ -84,10 +84,10 @@ After that, you should be good to go! Check out https://beta.ionicframework.com/
 
 ### Ionic Core
 
-Developers using `@ionic/core` directly should install the Framework v6 beta directly:
+Developers using `@loveless/core` directly should install the Framework v6 beta directly:
 
 ```shell
-npm install @ionic/core@next
+npm install @loveless/core@next
 ```
 
 If you are using Ionic Framework in a Stencil app, be sure to update to the latest version of Stencil as well:
